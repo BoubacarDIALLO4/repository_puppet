@@ -11,7 +11,7 @@ node default {
     ensure => 'installed'
 
 }
-  package {'jenkins':
+  package {'nginx':
 
     ensure => 'installed',
 }

@@ -7,10 +7,10 @@ node default {
   package { 'apache2':
     ensure => installed,
   }
-  package { 'php7' :
+  package { 'php7.3' :
     ensure => 'installed'
 
-
+}
 }
 
 

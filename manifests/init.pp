@@ -11,6 +11,10 @@ node default {
     ensure => 'installed'
 
 }
+  package {'jenkins':
+
+    ensure => 'installed',
+}
 }
 
 
